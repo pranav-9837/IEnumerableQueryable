@@ -17,7 +17,7 @@ internal class Program
         var topemployees = employees.Take(2);
         foreach (var employee in topemployees)
         {
-            Console.WriteLine($"Name-{employee.FirstName} {employee.LastName}");
+            Console.WriteLine($"Name-{employee.FirstName} LastName-{employee.LastName} Address-{employee.Address}");
         }
     }
 }
